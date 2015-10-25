@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sonova Visual Branding</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel-portfolio.css">
+    <link rel="stylesheet" href="css/sss.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/navmenu_styles.css">
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/navmenu_script.js"></script>
+    <script src="js/navmenu.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.event.swipe.js"></script>
+    <script src="js/unslider.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Page Container -->
+    <div class="container container_16">
+        <!-- Logo and Navbar -->
+        <div class="grid_6 margin_logo">
+            <a href="index.html"><img src="images/logo.svg">
+            </a>
+        </div>
+        <div class="grid_10 margin">
+            <div id="cssmenu">
+                <ul>
+                    <li></li>
+                    <li class="has-sub"><a href="about.html">about</a>
+                        <ul>
+                            <li class="has-sub"><a href="who.html">who</a>
+                            </li>
+                            <li class="has-sub"><a href="philosophy.html">philosophy</a>
+                            </li>
+                            <li class="has-sub"><a href="history.html">history</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="process.html">process</a>
+                        <ul>
+                            <li class="has-sub"><a href="discover.html">discover</a>
+                            </li>
+                            <li class="has-sub"><a href="design.html">design</a>
+                            </li>
+                            <li class="has-sub"><a href="implement.html">implement</a>
+                            </li>
+                            <li class="has-sub"><a href="standardize.html">standardize</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="services.html">services</a>
+                        <ul>
+                            <li class="has-sub"><a href="brand_identity.html">brand identity</a>
+                            </li>
+                            <li class="has-sub"><a href="brand_standards.html">brand standards</a>
+                            </li>
+                            <li class="has-sub"><a href="fleet_graphics.html">fleet graphics</a>
+                            </li>
+                            <li class="has-sub"><a href="naming.html">naming</a>
+                            </li>
+                            <li class="has-sub"><a href="packaging.html">packaging</a>
+                            </li>
+                            <li class="has-sub"><a href="print_collateral.html">print collateral</a>
+                            </li>
+                            <li class="has-sub"><a href="signage_design.html">signage design</a>
+                            </li>
+                            <li class="has-sub"><a href="uniforms_design.html">uniforms design</a>
+                            </li>
+                            <li class="has-sub"><a href="taglines.html">taglines</a>
+                            </li>
+                            <li class="has-sub"><a href="website_design.html">website design</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="#">work</a>
+                        <ul>
+                            <li class="has-sub"><a href="affilia.html">by client</a>
+                            </li>
+                            <li class="has-sub"><a href="prior_employment.html">prior employment</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Logo and Navbar -->
+        <div class="clear"></div>
+
+        <hr>
+
+        <!-- Statement Carousel -->
+        <div class="grid_10">
+            <div class="banner">
+                <ul>
+                    <li>
+                        <h1>A brand brings your business to life. <br />It puts a name, a face, and personifies <br />your company’s values.</h1>
+                    </li>
+
+                    <li>
+                        <h1>An effective brand differentiates you <br />from your competitors. Achieved through succinct messaging, it reinforces your<br />mission and vision.</h1>
+                    </li>
+
+                    <li>
+                        <h1>An effective brand identity visually communicates your values. Combined with<br /> a memorable design system, it will facilitate audience retention, thus increasing your brand’s awareness.</h1>
+                    </li>
+
+                    <li>
+                        <h1>With over 25 years experience, Sonova has had the privilege of creating visual brands for organizations ranging from Fortune 500 status to start-up companies and is honored for the opportunity to work with you.</h1>
+                    </li>
+                </ul>
+            </div>
+            <!-- END of jQuery Slider -->
+
+            <!-- START Javascript File - Keep it below slider inside body tags -->
+            <script>
+                if (window.chrome) {
+                    $('.banner li').css('background-size', '100% 100%');
+                }
+
+                $('.banner').unslider({
+                    fluid: true,
+                    dots: true,
+                    speed: 1500,
+                    delay: 5000
+                });
+            </script>
+
+        </div>
+        <!-- END Statement Carousel -->
+
+        <!-- Portfolio Slider -->
+        <div class="grid_16">
+            <div class="csslider">
+                <input type="radio" name="slides" id="slides_1" checked />
+                <input type="radio" name="slides" id="slides_N" />
+                <ul>
+                    <li>
+                        <!-- Portfolio - page 1/1st row -->
+                        <div class="clear"></div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/AffiliaHomeHealth.jpg" />
+                            <div class="face">
+                                <a href="affilia.html"><h2>Affilia<br />Home Health</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/AllSpireHealthPartners.jpg" />
+                            <div class="face">
+                                <a href="allspire.html"><h2>AllSpire<br />Health Partners</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/AmericanInternational.jpg" />
+                            <div class="face">
+                                <a href="aidt.html"><h2>American<br />International<br />Depository &amp; Trust</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/Auromira.jpg" />
+                            <div class="face">
+                                <a href="auromira.html"><h2>Auromira<br />Executive<br />Advantage</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/BassSouthwest.jpg" />
+                            <div class="face">
+                                <a href="bass_southwest.html"><h2>Bass Southwest</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/BassStringsOnly.jpg" />
+                            <div class="face">
+                                <a href="bass_strings.html"><h2>Bass Strings Only</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/BayCareHomeCare.jpg" />
+                            <div class="face">
+                                <a href="baycare.html"><h2>BayCare HomeCare</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/BrennemanConsulting.jpg" />
+                            <div class="face">
+                                <a href="brenneman_consulting.html"><h2>Brenneman Consulting</h2></a>
+                            </div>
+                        </div>
+                        <!-- END Portfolio - page 1/1st row -->
+                        <!-- Portfolio - page 1/2nd row -->
+                        <div class="clear"></div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/CenturaHealth.jpg" />
+                            <div class="face">
+                                <a href="centura_health.html"><h2>Centura Health</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/CityOfBrighton.jpg" />
+                            <div class="face">
+                                <a href="city_of_brighton.html"><h2>City of Brighton</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/CommunityHospital.jpg" />
+                            <div class="face">
+                                <a href="community_hospital.html"><h2>Community Hospital</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/DecipherConsulting.jpg" />
+                            <div class="face">
+                                <a href="denver_capital_group.html"><h2>Decipher Consulting</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/DenverCapitalGroup.jpg" />
+                            <div class="face">
+                                <a href="denver_capital_group.html"><h2>The Denver Capital Group</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/E470.jpg" />
+                            <div class="face">
+                                <a href="e-470.html"><h2>E-470 Public Highway Authority</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/ExpressToll.jpg" />
+                            <div class="face">
+                                <a href="expresstoll.html"><h2>ExpressToll LicensePlate Toll</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/FullSpectrum.jpg" />
+                            <div class="face">
+                                <a href="full_spectrum_energy.html"><h2>Full Spectrum Energy</h2></a>
+                            </div>
+                        </div>
+                        <!-- END Portfolio - page 1/2nd row -->
+                        <!-- Portfolio - page 1/3rd row -->
+                        <div class="clear"></div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/GHPhipps.jpg" />
+                            <div class="face">
+                                <a href="gh_phipps.html"><h2>GH Phipps</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/GlobalExportNetwork.jpg" />
+                            <div class="face">
+                                <a href="global_export_network.html"><h2>Global Export Network</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/HotelMarketers.jpg" />
+                            <div class="face">
+                                <a href="hotel_marketers.html"><h2>Hotel Marketers</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/IntelliStats.jpg" />
+                            <div class="face">
+                                <a href="intellistats.html"><h2>IntelliStats</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/LaurentiBassStrings.jpg" />
+                            <div class="face">
+                                <a href="laurenti_bass.html"><h2>Laurenti<br /> Bass Strings</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/MetropolitanStateUniversityOfDenver.jpg" />
+                            <div class="face">
+                                <a href="msudenver.html"><h2>Metropolitan State University of Denver</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/MichaelScottBand.jpg" />
+                            <div class="face">
+                                <a href="michael_scott_band.html"><h2>Michael Scott Band</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/NationSearch.jpg" />
+                            <div class="face">
+                                <a href="nationsearch.html"><h2>NationSearch</h2></a>
+                            </div>
+                        </div>
+                        <!-- END Portfolio - page 1/3rd row -->
+                    </li>
+                    <li>
+                        <!-- Portfolio - page 2/1st row -->
+                        <div class="clear"></div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/NewPush.jpg" />
+                            <div class="face">
+                                <a href="newpush.html"><h2>NewPush</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/NortheastBusinessResourceCenter.jpg" />
+                            <div class="face">
+                                <a href="northeast_business.html"><h2>Northeast Business Resource Center</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/OregonHealthAndScienceUniversity.jpg" />
+                            <div class="face">
+                                <a href="oregon_health.html"><h2>Oregon Health <br />&amp; Sciences University</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/SarowdinPartners.jpg" />
+                            <div class="face">
+                                <a href="sarowdin_partners.html"><h2>Sarowdin Partners</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/ScholarCentric.jpg" />
+                            <div class="face">
+                                <a href="scholar_centric.html"><h2>Scholar Centric</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/ScrumEnterprises.jpg" />
+                            <div class="face">
+                                <a href="scrum_enterprises.html"><h2>Scrum Enterprises</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/SurineBasses.jpg" />
+                            <div class="face">
+                                <a href="surine_basses.html"><h2>Surine Basses</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/Syntryx.jpg" />
+                            <div class="face">
+                                <a href="syntryx.html"><h2>Syntryx</h2></a>
+                            </div>
+                        </div>
+                        <!-- END Portfolio - page 2/1st row -->
+                        <!-- Portfolio - page 2/2nd row -->
+                        <div class="clear"></div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/TampaBayHeartInstitute.jpg" />
+                            <div class="face">
+                                <a href="tampa_bay_heart.html"><h2>Tampa Bay<br /> Heart Institute</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/ThoroughbredEntertainment.jpg" />
+                            <div class="face">
+                                <a href="thoroughbred.html"><h2>Thoroughbred Entertainment</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/UnGraph5.jpg" />
+                            <div class="face">
+                                <a href="ungraph5.html"><h2>UnGraph 5</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/UnifiedNetworkCommunications.jpg" />
+                            <div class="face">
+                                <a href="unified_network.html"><h2>Unified Network Communications</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/UniversalAccess.jpg" />
+                            <div class="face">
+                                <a href="universal_access.html"><h2>Universal Access</h2></a>
+                            </div>
+                        </div>
+                        <div class="folio2">
+                            <img src="images/work/thumbs/VonsCreditUnion.jpg" />
+                            <div class="face">
+                                <a href="vons_credit.html"><h2>Vons Credit Union</h2></a>
+                            </div>
+                        </div>
+                        <!-- END Portfolio - page 2/3rd row -->
+                    </li>
+                </ul>
+                <div class="navigation">
+                    <div>
+                        <label for="slides_1"></label>
+                        <label for="slides_N"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Portfolio Slider -->
+    </div>
+
+    <!-- END Page Container -->
+</body>
+
+</html>

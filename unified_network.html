@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sonova Visual Branding</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel-portfolio.css">
+    <link rel="stylesheet" href="css/sss.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/navmenu_styles.css">
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/navmenu_script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/navmenu.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            $(".slider").sss();
+
+            $(".section").click(function (e) {
+                e.preventDefault();
+
+                var loc = $(this).attr("href").substring(1);
+                var lock = $("#" + loc).offset().top;
+                $("body,html").animate({
+                    scrollTop: lock
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Page Container -->
+    <div class="container container_16">
+        <!-- Logo and Navbar -->
+        <div class="grid_6 margin_logo">
+            <a href="index.html"><img src="images/logo.svg">
+            </a>
+        </div>
+        <div class="grid_10 margin">
+            <div id="cssmenu">
+                <ul>
+                    <li class="has-sub"><a href="about.html">about</a>
+                        <ul>
+                            <li class="has-sub"><a href="who.html">who</a>
+                            </li>
+                            <li class="has-sub"><a href="philosophy.html">philosophy</a>
+                            </li>
+                            <li class="has-sub"><a href="history.html">history</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="process.html">process</a>
+                        <ul>
+                            <li class="has-sub"><a href="discover.html">discover</a>
+                            </li>
+                            <li class="has-sub"><a href="design.html">design</a>
+                            </li>
+                            <li class="has-sub"><a href="implement.html">implement</a>
+                            </li>
+                            <li class="has-sub"><a href="standardize.html">standardize</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="services.html">services</a>
+                        <ul>
+                            <li class="has-sub"><a href="brand_identity.html">brand identity</a>
+                            </li>
+                            <li class="has-sub"><a href="brand_standards.html">brand standards</a>
+                            </li>
+                            <li class="has-sub"><a href="fleet_graphics.html">fleet graphics</a>
+                            </li>
+                            <li class="has-sub"><a href="naming.html">naming</a>
+                            </li>
+                            <li class="has-sub"><a href="packaging.html">packaging</a>
+                            </li>
+                            <li class="has-sub"><a href="print_collateral.html">print collateral</a>
+                            </li>
+                            <li class="has-sub"><a href="signage_design.html">signage design</a>
+                            </li>
+                            <li class="has-sub"><a href="uniforms_design.html">uniforms design</a>
+                            </li>
+                            <li class="has-sub"><a href="taglines.html">taglines</a>
+                            </li>
+                            <li class="has-sub"><a href="website_design.html">website design</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active has-sub"><a href="#">work</a>
+                        <ul>
+                            <li class="has-sub"><a href="affilia.html">by client</a>
+                            </li>
+                            <li class="has-sub"><a href="prior_employment.html">prior employment</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Logo and Navbar -->
+        <div class="clear"></div>
+
+        <hr>
+
+        <!-- Work Container -->
+        <div class="grid_12">
+            <!-- Work Details -->
+            <div class="csslider work_details_bg">
+                <input type="radio" name="slides" id="slides_1" checked />
+                <input type="radio" name="slides" id="slides_N" />
+                <ul>
+                    <li>
+                        <div class="clear"></div>
+                        <img class="slide-image" src="images/work/details/SNV_Web2015_04_Affilia_ImageA_720x360.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="clear"></div>
+                        <img class="slide-image" src="images/work/details/SNV_Web2015_04_Affilia_ImageB_720x360.jpg" alt="">
+                    </li>
+                </ul>
+                <div class="navigation" style="left:20.5%;">
+                    <div>
+                        <label for="slides_1"></label>
+                        <label for="slides_N"></label>
+                    </div>
+                </div>
+            </div>
+            <!-- END Work Details -->
+            <!-- Work Description -->
+            <div class="padding">
+                <h2 class="h2">Unified Network Communications</h2>
+                <p class="para_indent">Quidunto doluptatus con coreic tem et accumqu idicitatur, cus del mi, cusdae modigen dandenis modions equatias entem ius quaecumqui iusanimagnam sa et optate que pratatus, omnim que aturi ullandi taquis erest et, cum que laccusam dollisqui ut ium nate por sit et modi solorro viduntiusam, simusaeratem reptatem nobit officto optae.</p>
+            </div>
+            <!-- END Work Description -->
+        </div>
+        <!-- END Work Container -->
+        <!-- By Client - List -->
+        <div class="grid_4_c client_list_bg">
+            <ul class="list-unstyled client_list">
+                <li><a href="affilia.html">Affilia Home Health (via Brand Savvy)</a>
+                </li>
+                <li><a href="allspire.html">AllSpire Health Partners (via Brand Savvy)</a>
+                </li>
+                <li><a href="aidt.html">American International Depository and Trust</a>
+                </li>
+                <li><a href="auromira.html">Auromira Executive Advantage</a>
+                </li>
+                <li><a href="bass_southwest.html">Bass Southwest</a>
+                </li>
+                <li><a href="bass_strings.html">Bass Strings Only</a>
+                </li>
+                <li><a href="baycare.html">BayCare HomeCare (via Brand Savvy)</a>
+                </li>
+                <li><a href="brenneman_consulting.html">Brenneman Consulting</a>
+                </li>
+                <li><a href="centura_health.html">Centura Health (via Davis Design)</a>
+                </li>
+                <li><a href="city_of_brighton.html">City of Brighton (via Davis Design)</a>
+                </li>
+                <li><a href="community_hospital.html">Community Hospital</a>
+                </li>
+                <li><a href="decipher_consulting.html">Decipher Consulting</a>
+                </li>
+                <li><a href="denver_capital_group.html">Denver Capital Group</a>
+                </li>
+                <li><a href="e-470.html">E-470 Public Highway Authority</a>
+                </li>
+                <li><a href="expresstoll.html">ExpressToll / License Plate Toll</a>
+                </li>
+                <li><a href="full_spectrum_energy.html">Full Spectrum Energy</a>
+                </li>
+                <li><a href="gh_phipps.html">GH Phipps (via Brand Savvy)</a>
+                </li>
+                <li><a href="global_export_network.html">Global Export Network</a>
+                </li>
+                <li><a href="hotel_marketers.html">Hotel Marketers</a>
+                </li>
+                <li><a href="intellistats.html">IntelliStats</a>
+                </li>
+                <li><a href="laurenti_bass.html">Laurenti Bass Strings</a>
+                </li>
+                <li><a href="msudenver.html">Metropolitan State University of Denver</a>
+                </li>
+                <li><a href="michael_scott_band.html">Michael Scott Band</a>
+                </li>
+                <li><a href="nationsearch.html">NationSearch</a>
+                </li>
+                <li><a href="newpush.html">NewPush</a>
+                </li>
+                <li><a href="northeast_business.html">Northeast Business Resource Center</a>
+                </li>
+                <li><a href="oregon_health.html">Oregon Health &amp; Science University <br />(via Brand Savvy)</a>
+                </li>
+                <li><a href="sarowdin_partners.html">Sarowdin Partners LLC</a>
+                </li>
+                <li><a href="scholar_centric.html">Scholar Centric</a>
+                </li>
+                <li><a href="scrum_enterprises.html">Scrum Enterprises</a>
+                </li>
+                <li><a href="surine_basses.html">Surine Basses</a>
+                </li>
+                <li><a href="syntryx.html">Syntryx</a>
+                </li>
+                <li><a href="tampa_bay_heart.html">Tampa Bay Heart Institute (via Brand Savvy)</a>
+                </li>
+                <li><a href="thoroughbred.html">Thoroughbred Entertainment</a>
+                </li>
+                <li><a href="ungraph5.html">UnGraph 5</a>
+                </li>
+                <li><a href="unified_network.html" class="current">Unified Network Communications</a>
+                </li>
+                <li><a href="universal_access.html">Universal Access</a>
+                </li>
+                <li><a href="vons_credit.html">Vons Credit Union (via Brand Savvy)</a>
+                </li>
+            </ul>
+        </div>
+        <!-- END By Client - List -->
+        <!-- END Page Container -->
+</body>
+
+</html>
